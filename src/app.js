@@ -1,7 +1,5 @@
 const express = require("express");
 
-const DB = 'mongodb+srv://<naushad>:<Rubana101305>@cluster0.adlzck6.mongodb.net/aitspatna?retryWrites=true&w=majority';
-
 const path = require("path");
 require("./db/conn");
 const User = require("./models/usermessage");
@@ -9,7 +7,7 @@ const hbs = require("hbs");
 const app = express();
 const port = process.env.PORT || 3000;
 
-//setting the path
+//setting the path 
 const staticpath = path.join(__dirname, "../public");
 const templatepath = path.join(__dirname, "../templates/views");
 const partialpath = path.join(__dirname, "../templates/partials");
