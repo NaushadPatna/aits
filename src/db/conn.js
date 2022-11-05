@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 // Connect to DB
 
 // const password = process.env.Rubana101305
-const DB = 'mongodb+srv://naushad:Rubana101305@cluster0.adlzck6.mongodb.net/aitspatna.users?retryWrites=true&w=majority';
+const DB = 'mongodb+srv://naushad:Rubana101305@cluster0.adlzck6.mongodb.net/users?retryWrites=true&w=majority';
 
 mongoose.connect(DB, {
     useNewUrlParser: true,
