@@ -1,4 +1,7 @@
 const express = require("express");
+
+const DB = 'mongodb+srv://<naushad>:<Rubana101305>@cluster0.adlzck6.mongodb.net/aitspatna?retryWrites=true&w=majority';
+
 const path = require("path");
 require("./db/conn");
 const User = require("./models/usermessage");
